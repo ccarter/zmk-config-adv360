@@ -15,7 +15,7 @@
        "&kp LSHFT",  "&kp SEMI",     "&kp Q",    "&kp J",     "&kp K",    "&kp X",             "&none",        "&none",  "&kp HOME",     "&none",     "&none", "&kp PG_UP",         "&none",     "&none",    "&kp B",  "&kp M",  "&kp W",  "&kp V",  "&kp Z", "&kp RSHFT",
            "&mo 1", "&kp GRAVE",  "&kp BSLH", "&kp LEFT", "&kp RIGHT", "&kp BSPC",           "&kp DEL",      "&kp END", "&kp PG_DN", "&kp ENTER", "&kp SPACE",    "&kp UP",      "&kp DOWN",  "&kp LBKT", "&kp RBKT",  "&mo 1"
     ], [
-       "&kp ESC", "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5",           "&tog 1",  "&mo 3", "&kp F6", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11",
+       "&kp ESC", "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5",            "&none",  "&none", "&kp F6", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11",
         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",  "&none", "&trans", "&trans", "&trans", "&trans",  "&trans", "&kp F12",
         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none", "&trans", "&trans",                     "&trans",  "&trans",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",  "&none", "&trans",  "&none",  "&none", "&trans",   "&none",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
