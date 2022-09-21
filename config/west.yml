@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: ccarter
+      url-base: https://github.com/ccarter
   projects:
     - name: zmk
-      remote: refil
-      revision: adv360-beta
+      remote: ccarter
+      revision: 360_last_device
       import: app/west.yml
   self:
     path: config
