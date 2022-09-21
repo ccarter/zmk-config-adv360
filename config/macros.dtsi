@@ -41,6 +41,7 @@
     bindings
       = <&bt BT_SEL 0>
       , <&kp C_PLAY_PAUSE>
+      , <&last_device>
       ;    
   };
    macro_play_next: macro_play_next {
@@ -50,6 +51,7 @@
     bindings
       = <&bt BT_SEL 0>
       , <&kp C_NEXT>
+      , <&last_device>
       ;    
   };
 
@@ -60,5 +62,6 @@
     bindings
       = <&bt BT_SEL 0>
       , <&kp C_PREV>
+      , <&last_device>
       ;    
   };
