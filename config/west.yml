@@ -2,11 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-
+    - name: refil
+      url-base: https://github.com/refil
+    - name: ccarter
+      url-base: https://github.com/ccarter
+  # projects:
+  #   - name: zmk
+  #     remote: refil
+  #     revision: adv360-beta
+  #     import: app/west.yml
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: ccarter
+      revision: advantage360
       import: app/west.yml
+
   self:
     path: config
