@@ -42,7 +42,7 @@
             bindings = <
  &kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5             &macro_play_prev_sw   &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
   &trans  &trans  &trans  &trans  &trans  &trans             &macro_play_pause_sw   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
-  &trans  &trans  &trans  &trans  &trans  &trans             &Macro_play_next_sw  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans             &macro_play_next_sw  &trans  &trans                  &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans
             >;
