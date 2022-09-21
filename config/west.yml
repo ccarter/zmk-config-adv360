@@ -14,7 +14,7 @@ manifest:
   projects:
     - name: zmk
       remote: ccarter
-      revision: advantage360
+      revision: 360_last_device
       import: app/west.yml
 
   self:
