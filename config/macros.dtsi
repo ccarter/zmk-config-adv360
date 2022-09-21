@@ -52,3 +52,13 @@
       , <&kp C_NEXT>
       ;    
   };
+
+   macro_play_prev: macro_play_prev {
+    compatible = "zmk,behavior-macro";
+    label = "play_prev";
+    #binding-cells = <0>;
+    bindings
+      = <&bt BT_SEL 0>
+      , <&kp C_PREV>
+      ;    
+  };
