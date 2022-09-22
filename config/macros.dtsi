@@ -71,8 +71,7 @@
     label = "play_pause";
     #binding-cells = <0>;
     bindings
-      = <&bt BT_SEL 0>
-      , <&kp C_PLAY_PAUSE>
+      = <&kp C_PLAY_PAUSE>
       ;    
   };
    macro_play_next: macro_play_next {
@@ -80,8 +79,7 @@
     label = "play_next";
     #binding-cells = <0>;
     bindings
-      = <&bt BT_SEL 0>
-      , <&kp C_NEXT>
+      = <&kp C_NEXT>
       ;    
   };
 
@@ -90,7 +88,6 @@
     label = "play_prev";
     #binding-cells = <0>;
     bindings
-      = <&bt BT_SEL 0>
-      , <&kp C_PREV>
+      = <&kp C_PREV>
       ;    
   };
