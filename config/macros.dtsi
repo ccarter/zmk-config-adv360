@@ -66,28 +66,25 @@
       ;    
   };
 
-  macro_play_pause: macro_play_pause {
+   macro_ff_sw: macro_ff_sw {
     compatible = "zmk,behavior-macro";
-    label = "play_pause";
+    label = "ff_sw";
     #binding-cells = <0>;
     bindings
-      = <&kp C_PLAY_PAUSE>
-      ;    
-  };
-   macro_play_next: macro_play_next {
-    compatible = "zmk,behavior-macro";
-    label = "play_next";
-    #binding-cells = <0>;
-    bindings
-      = <&kp C_NEXT>
+      = <&bt BT_SEL 0>
+      , <&kp C_FF>
+      , <&last_dev>
       ;    
   };
 
-   macro_play_prev: macro_play_prev {
+   macro_rw_sw: macro_rw_sw {
     compatible = "zmk,behavior-macro";
-    label = "play_prev";
+    label = "rw_sw";
     #binding-cells = <0>;
     bindings
-      = <&kp C_PREV>
+      = <&bt BT_SEL 0>
+      , <&kp C_RW>
+      , <&last_dev>
       ;    
   };
+
